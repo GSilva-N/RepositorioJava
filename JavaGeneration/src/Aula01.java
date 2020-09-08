@@ -11,6 +11,8 @@ class Aula01 {
 		JOptionPane.showMessageDialog(null, "Você nasceu no ano : "+anoNascimento);
 		JOptionPane.showMessageDialog(null, "Sua idade é de : "+(2020-anoNascimento)+" anos");
 		
+		JOptionPane.showMessageDialog(null, "Raiz Quadrada "+Math.sqrt(2));
+		
 		
 	}
 
