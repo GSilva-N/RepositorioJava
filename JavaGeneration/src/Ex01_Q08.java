@@ -1,5 +1,4 @@
 import java.text.DecimalFormat;
-
 import javax.swing.JOptionPane;
 
 public class Ex01_Q08 {
@@ -10,11 +9,9 @@ public class Ex01_Q08 {
 		double valorConsumidor, valorFabrica;
 		
 		valorFabrica = Float.parseFloat(JOptionPane.showInputDialog("Custo de Fábrica em R$:"));
-		
 		valorConsumidor = valorFabrica*1.73;
 			 
-		JOptionPane.showMessageDialog(null, "Valor ao Consumidor é de R$ "+formatador.format(valorConsumidor));
-
+		JOptionPane.showMessageDialog(null, "Valor ao Consumidor:\nR$ "+formatador.format(valorConsumidor));
 	}
 
 }
