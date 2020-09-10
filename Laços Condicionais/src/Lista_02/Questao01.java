@@ -18,7 +18,7 @@ public class Questao01 {
             if (numerosLidos[i]>maiorDeles)
                 maiorDeles=numerosLidos[i];
        }
-        JOptionPane.showMessageDialog(null,"Maior Deles é:  "+maiorDeles);
+        JOptionPane.showMessageDialog(null,"Maior Deles é: "+maiorDeles);
 	}
 
 	}

@@ -31,14 +31,6 @@ public class Questao02 {
 		
 		JOptionPane.showMessageDialog(null,"Ordem crecente "+num1+" "+num2+" "+num3);
 		
-		
-		
-			
-		
-		
-      
-        
-
 	}
 
 }
