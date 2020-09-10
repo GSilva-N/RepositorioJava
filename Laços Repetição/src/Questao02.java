@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Questão02 {
+public class Questao02 {
 
 	public static void main(String[] args) {
 		int numerosLidos[]= new int[10];
