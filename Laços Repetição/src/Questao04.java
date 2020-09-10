@@ -7,7 +7,7 @@ public class Questao04 {
 		int idade, sexo, comportamento;
 		int contador=0, calmo=0, mulheresNervosas=0,  homensAgressivos=0;
 		int nervoso40=0, calmo18=0;
-		while(contador<5){
+		while(contador<150){
 			
 			idade= Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade:"));
 			sexo= Integer.parseInt(JOptionPane.showInputDialog("Qual seu sexo?\n1-F  2-M"));
